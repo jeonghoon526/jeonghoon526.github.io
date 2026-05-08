@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="assets/icons/icon.png">
+  <meta charset="utf-8">
+  <title>Art — Jeonghoon (June) Park</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <style>
+    body {
+      color: #333;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    .topnav {
+      text-align: right;
+      padding: 14px 0 6px;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 0;
+    }
+    .topnav a {
+      color: #555;
+      font-size: 14px;
+      text-decoration: none;
+      margin-left: 18px;
+    }
+    .topnav a:hover {
+      color: #1EAEDB;
+    }
+    .page-title {
+      margin-top: 36px;
+      margin-bottom: 24px;
+      font-size: 22px;
+      font-weight: 600;
+    }
+    .art-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .art-grid img {
+      width: 100%;
+      border-radius: 6px;
+      display: block;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .art-grid img:hover {
+      opacity: 0.85;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 16px 0;
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="one column hide-on-small">&nbsp;</div>
+    <div class="ten columns">
+
+      <div class="topnav">
+        <a href="index.html">About</a>
+        <a href="art.html">Art</a>
+      </div>
+
+      <div class="page-title">Art</div>
+
+      <!-- 아트웍 이미지들을 아래에 추가하세요 -->
+      <div class="art-grid">
+        <!-- 예시: <img src="img/art/work1.jpg" alt="Work 1"> -->
+        <!-- 예시: <img src="img/art/work2.jpg" alt="Work 2"> -->
+      </div>
+
+    </div>
+    <div class="one column hide-on-small">&nbsp;</div>
+  </div>
+
+  <footer>
+    2026 © Jeonghoon (June) Park
+  </footer>
+
+</body>
+</html>

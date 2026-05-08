@@ -3,198 +3,178 @@
 
 <head>
   <link rel="icon" href="assets/icons/icon.png">
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Seungeun (Ross) Rho</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <title>Jeonghoon Park</title>
+  <meta name="description" content="Jeonghoon Park's personal homepage">
+  <meta name="author" content="Jeonghoon Park">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link rel="icon" type="image/png" href="assets/"> -->
-
   <style>
-    .author-toggle {
-      color: #1EAEDB;
-      cursor: pointer;
-      font-style: normal;
+    body {
+      color: #333;
+      font-size: 15px;
+      line-height: 1.7;
     }
-    .author-toggle:hover {
+    .profile-photo {
+      width: 160px;
+      border-radius: 50%;
+      border: 3px solid #ddd;
+    }
+    .social-links {
+      text-align: center;
+      margin-top: 8px;
+    }
+    .social-links a {
+      color: #1EAEDB;
+      margin: 0 6px;
+      font-size: 13px;
+      text-decoration: none;
+    }
+    .social-links a:hover {
       text-decoration: underline;
     }
+    .section-title {
+      font-size: 17px;
+      font-weight: 600;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 4px;
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+    .news-list li {
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+    .news-list b {
+      color: #555;
+    }
+    .pub-item {
+      margin-bottom: 14px;
+    }
+    .pub-item .pub-title {
+      font-weight: 600;
+    }
+    .pub-item .pub-venue {
+      color: #888;
+      font-size: 13px;
+    }
+    .pub-item a {
+      font-size: 13px;
+      margin-right: 6px;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 16px 0;
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+      border-top: 1px solid #eee;
+    }
   </style>
-
-<!--  &lt;!&ndash; Global site tag (gtag.js) - Google Analytics &ndash;&gt;-->
-<!--  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1J19VDQYCK"></script>-->
-<!--  <script>-->
-<!--    window.dataLayer = window.dataLayer || [];-->
-<!--    function gtag() { dataLayer.push(arguments); }-->
-<!--    gtag('js', new Date());-->
-<!--    gtag('config', 'G-1J19VDQYCK');-->
-<!--  </script>-->
-<!--  &lt;!&ndash; Video playback speed and no controls &ndash;&gt;-->
-<!--  <script defer src="js/video.js"></script>-->
 </head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N0LVZ5JF66"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-N0LVZ5JF66');
-</script>
 
 <body>
   <div class="container">
     <div class="one column hide-on-small">&nbsp;</div>
     <div class="ten columns">
-      <!-- NAVBAR --------------------------------- -->
-      <!-- <div class="navbar-spacer"></div>
-      <nav class="navbar">
-        <div class="container">
-          <ul class="navbar-list">
-            <li class="navbar-item"><a class="navbar-link" href="index.html">About</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="/blog.html">Blog</a></li>
-          </ul>
-        </div>
-      </nav> -->
 
-      <!-- Personal Info  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-      <div class="row profile-row" style="margin-top: 4%">
+      <!-- ── Profile ──────────────────────────────────────── -->
+      <div class="row profile-row" style="margin-top: 5%">
         <div class="one columns"></div>
-        <div class="three columns">
-          <!-- Profile photo  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-          <div style="text-align: center;">
-            <img src="assets/img/photo.jpg" class="profile-photo" alt="profile photo"><br>
+
+        <!-- Left: photo + name + links -->
+        <div class="three columns" style="text-align: center;">
+          <img src="assets/img/photo.jpg" class="profile-photo" alt="Jeonghoon Park">
+          <h5 style="margin: 10px 0 2px;">Jeonghoon Park</h5>
+          <p style="font-size: 13px; color: #777; margin: 0;">박정훈</p>
+          <div class="social-links" style="margin-top: 10px;">
+            <a href="mailto:jeonghoon526@gmail.com">Email</a> /
+            <a href="https://github.com/" target="_blank">GitHub</a> /
+            <a href="https://linkedin.com/in/" target="_blank">LinkedIn</a> /
+            <a href="assets/cv.pdf" target="_blank">CV</a>
           </div>
-          <!-- Name
-          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-          <h5 style="text-align: center; ">Jeonghoon Park</h5>
-          <!-- Social links
-          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-       
         </div>
 
-        <div class="eight columns" style="margin-top: 5%;">
-          <p style="text-align:justify;">
-            <!-- Self-introduction
-            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            Hello! my name is hooni </p>
-          <!-- <strong>Competences:</strong>
-          <a>python</a>,
-          <a>pytorch</a>,
-          <a>pybullet</a>,
-          <a>iGibson</a>,
-          <a>OpenCV</a>,
-          <a>numpy</a>,
-          <a>Tensorflow</a>,
-          <a>C/C++</a>,
-          <a>ROS</a>,
-          <a>docker</a> -->
-
-  <!--        <h5><u>News</u></h5>-->
-  <!--        <ul>-->
-  <!--          <li> <b>JUL'23</b> - Our work on Learning-oriented Robot Design was accepted at IROS 2023 <a-->
-  <!--            href="https://learning-robot.github.io/">[project page]</a></li>-->
-  <!--          <li> <b>MAR'23</b> - Check out our latest work on Design a Learning Robot <a-->
-  <!--              href="https://learning-robot.github.io/">[project page]</a></li>-->
-  <!--          <li> <b>APR'22</b> - Human Motion Control of Quadrupedal Robots accepted at RSS <a-->
-  <!--              href="https://sites.google.com/view/humanconquad/">[project page]</a></li>-->
-  <!--          <li> <b>SEP'21</b> - Excited to be joining <a href="https://x.company">X - the moonshot factory</a> ( <a-->
-  <!--              href="https://everydayrobots.com">Everyday Robots</a> ) for PhD-->
-  <!--            Residency!</li>-->
-  <!--          <li> <b>SEP'21</b> - Check out our work on Learning Sidewalk Navigation <a-->
-  <!--              href="./navigation.html">[project page]</a></li>-->
-  <!--          &lt;!&ndash; <li> <b>MAY'21</b> - Awarded the fellowship by the Machine Learning Center at Georgia Tech. <a href="https://mlatgt.blog/2021/05/10/the-machine-learning-center-awards-inaugural-mlgt-fellows/">[link]</a> </li> &ndash;&gt;-->
-  <!--          &lt;!&ndash; <li> <b>FEB'21</b> Paper on Learning Human Search Behavior accepted at EUROGRAPHICS'2021! <a href="https://arxiv.org/pdf/2011.03618.pdf">[pdf]</a><a href="https://arxiv.org/abs/2011.03618">[arXiv]</a></li> &ndash;&gt;-->
-  <!--          &lt;!&ndash; <li> <b>DEC'20</b> Paper on Few-shot visual sensor meta-adaptation accepted at ICRA'2021! <a href="https://arxiv.org/pdf/2011.03609.pdf">[pdf]</a><a href="http://arxiv.org/abs/2011.03609">[arXiv]</a></li> &ndash;&gt;-->
-  <!--        </ul>-->
-
-
+        <!-- Right: bio -->
+        <div class="eight columns" style="margin-top: 4%;">
+          <p style="text-align: justify;">
+            Hi, I'm <strong>Jeonghoon (Hooni) Park</strong>. I'm passionate about building things that matter —
+            whether it's writing clean code, designing thoughtful systems, or exploring the intersection of
+            technology and human experience.
+          </p>
+          <p style="text-align: justify;">
+            I enjoy working on challenging problems and believe the best solutions come from curiosity,
+            collaboration, and a willingness to iterate. When I'm not at my desk, I'm probably reading,
+            hiking, or hunting for good coffee.
+          </p>
+          <p style="text-align: justify;">
+            Feel free to reach out — I'm always happy to chat about ideas, projects, or anything in between.
+          </p>
         </div>
-
       </div>
-    </div>  
+
+      <!-- ── News ─────────────────────────────────────────── -->
+      <div class="section-title">News</div>
+      <ul class="news-list">
+        <li><b>MAY '26</b> — Started building this personal website. More to come!</li>
+        <li><b>MAR '26</b> — Joined an exciting new project. Looking forward to sharing updates soon.</li>
+        <li><b>JAN '26</b> — Happy new year! Setting ambitious goals for the year ahead.</li>
+      </ul>
+
+      <!-- ── Research / Projects ───────────────────────────── -->
+      <div class="section-title">Projects</div>
+
+      <div class="pub-item">
+        <div class="pub-title">Project Title One</div>
+        <div style="font-size: 14px; margin: 2px 0;">
+          Jeonghoon Park, Collaborator A, Collaborator B
+        </div>
+        <div class="pub-venue">Conference / Journal / Tech Report — 2026</div>
+        <div style="margin-top: 4px;">
+          <a href="#">[paper]</a>
+          <a href="#">[code]</a>
+          <a href="#">[demo]</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Project Title Two</div>
+        <div style="font-size: 14px; margin: 2px 0;">
+          Jeonghoon Park, Collaborator C
+        </div>
+        <div class="pub-venue">Workshop / Preprint — 2025</div>
+        <div style="margin-top: 4px;">
+          <a href="#">[paper]</a>
+          <a href="#">[project page]</a>
+        </div>
+      </div>
+
+      <!-- ── Education ─────────────────────────────────────── -->
+      <div class="section-title">Education</div>
+      <ul style="font-size: 14px;">
+        <li>
+          <strong>University Name</strong> — M.S. / Ph.D. in [Field], [Year]–Present<br>
+          <span style="color: #888;">Advisor: Prof. [Name]</span>
+        </li>
+        <li style="margin-top: 8px;">
+          <strong>University Name</strong> — B.S. in [Field], [Year]–[Year]
+        </li>
+      </ul>
+
+    </div>
     <div class="one column hide-on-small">&nbsp;</div>
   </div>
-  <div><p></p></div>
 
-  </div>
-
-
-
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- attempt hiding from spambots :p - snippet credits Andrej Karpathy - karpathy.ai source code -->
-  <script type="text/javascript">
-    var e_is_shown = false;
-    document.getElementById('iemail').addEventListener("click", function () {
-      let demail = document.getElementById('demail');
-      demail.innerHTML = 'srho31@gatech.edu';
-      demail.style.opacity = e_is_shown ? 0 : 1;
-      e_is_shown = !e_is_shown;
-    })
-
-    function toggleAuthors(element) {
-      var hiddenAuthors = element.nextElementSibling;
-      if (hiddenAuthors.style.display === 'none') {
-        hiddenAuthors.style.display = 'inline';
-        element.textContent = '[-19 more]';
-      } else {
-        hiddenAuthors.style.display = 'none';
-        element.textContent = '[+19 more]';
-      }
-    }
-  </script>
-
-
-  <!-- ### FOOTER ### -->
-
-<!--  <br>-->
-<!--  <br>-->
-
-<!--  <br>-->
-<!--  <br>-->
-<!--  <div class="div_line"></div><br>-->
-
-<!--  <p style="color:gray; text-align:center; font-size: small;">-->
-<!--    <h7 style="text-decoration: none;">consider checking out: </h7><br><br>-->
-<!--    <a href="https://www.givewell.org/"><img src="assets/icons/gw.jpg" style="width:100px;"></a>-->
-<!--    <a href="https://www.givingwhatwecan.org/"><img src="assets/icons/gwwc.png" style="width:100px;"></a>-->
-<!--    <a href="https://www.effectivealtruism.org/"><img src="assets/icons/ea.png" style="width:80px; margin:10px"></a>-->
-
-<!--  </p>-->
-
-
-<!--  <div class="div_line"></div><br>-->
-
-<!--  <p style="color:gray; text-align:center; font-size: small;">-->
-<!--    2023© Seungeun Rho<br>-->
-<!--    built using <a href="http://getskeleton.com/">Skeleton</a>,-->
-<!--    icon credits <a href="https://www.flaticon.com/"> flaticon</a>,-->
-<!--    hosted by <a href="https://pages.github.com/"> GitHub Pages</a>❤️-->
-<!--    <br>-->
-<!--    <br>-->
-<!--    feel free to copy: <a href="https://github.com/initmaks/initmaks.github.io">this page</a>-->
-<!--  </p>-->
+  <footer>
+    2026 © Jeonghoon Park &nbsp;·&nbsp;
+    Built with <a href="http://getskeleton.com/" style="color:#aaa;">Skeleton</a> &nbsp;·&nbsp;
+    Hosted on <a href="https://pages.github.com/" style="color:#aaa;">GitHub Pages</a>
+  </footer>
 
 </body>
-
 </html>
